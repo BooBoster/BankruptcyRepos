@@ -1,0 +1,17 @@
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.DAL\bin\Debug\net7.0\BankruptcyTask.DAL.deps.json
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.DAL\bin\Debug\net7.0\BankruptcyTask.DAL.dll
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.DAL\bin\Debug\net7.0\BankruptcyTask.DAL.pdb
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.DAL\bin\Debug\net7.0\BankruptcyTask.Domain.dll
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.DAL\bin\Debug\net7.0\BankruptcyTask.Domain.pdb
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.DAL\obj\Debug\net7.0\BankruptcyTask.DAL.csproj.AssemblyReference.cache
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.DAL\obj\Debug\net7.0\BankruptcyTask.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.DAL\obj\Debug\net7.0\BankruptcyTask.DAL.AssemblyInfoInputs.cache
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.DAL\obj\Debug\net7.0\BankruptcyTask.DAL.AssemblyInfo.cs
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.DAL\obj\Debug\net7.0\BankruptcyTask.DAL.csproj.CoreCompileInputs.cache
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.DAL\obj\Debug\net7.0\BankruptcyTask.DAL.csproj.CopyComplete
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.DAL\obj\Debug\net7.0\BankruptcyTask.DAL.dll
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.DAL\obj\Debug\net7.0\refint\BankruptcyTask.DAL.dll
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.DAL\obj\Debug\net7.0\BankruptcyTask.DAL.pdb
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.DAL\obj\Debug\net7.0\ref\BankruptcyTask.DAL.dll
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.DAL\bin\Debug\net7.0\BankruptcyTask.DAL.runtimeconfig.json
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.DAL\obj\Debug\net7.0\BankruptcyTask.DAL.genruntimeconfig.cache

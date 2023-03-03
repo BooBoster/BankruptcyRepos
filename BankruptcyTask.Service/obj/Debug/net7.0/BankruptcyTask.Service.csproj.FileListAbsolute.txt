@@ -1,0 +1,17 @@
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Service\bin\Debug\net7.0\BankruptcyTask.Service.deps.json
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Service\bin\Debug\net7.0\BankruptcyTask.Service.dll
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Service\bin\Debug\net7.0\BankruptcyTask.Service.pdb
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Service\bin\Debug\net7.0\BankruptcyTask.DAL.dll
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Service\bin\Debug\net7.0\BankruptcyTask.Domain.dll
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Service\bin\Debug\net7.0\BankruptcyTask.Domain.pdb
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Service\bin\Debug\net7.0\BankruptcyTask.DAL.pdb
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Service\obj\Debug\net7.0\BankruptcyTask.Service.csproj.AssemblyReference.cache
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Service\obj\Debug\net7.0\BankruptcyTask.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Service\obj\Debug\net7.0\BankruptcyTask.Service.AssemblyInfoInputs.cache
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Service\obj\Debug\net7.0\BankruptcyTask.Service.AssemblyInfo.cs
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Service\obj\Debug\net7.0\BankruptcyTask.Service.csproj.CoreCompileInputs.cache
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Service\obj\Debug\net7.0\BankruptcyTask.Service.csproj.CopyComplete
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Service\obj\Debug\net7.0\BankruptcyTask.Service.dll
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Service\obj\Debug\net7.0\refint\BankruptcyTask.Service.dll
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Service\obj\Debug\net7.0\BankruptcyTask.Service.pdb
+C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Service\obj\Debug\net7.0\ref\BankruptcyTask.Service.dll
