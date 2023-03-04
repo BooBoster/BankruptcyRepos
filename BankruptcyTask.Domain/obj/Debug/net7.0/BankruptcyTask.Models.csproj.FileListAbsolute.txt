@@ -1,0 +1,12 @@
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\bin\Debug\net7.0\BankruptcyTask.Models.deps.json
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\bin\Debug\net7.0\BankruptcyTask.Models.dll
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\bin\Debug\net7.0\BankruptcyTask.Models.pdb
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\obj\Debug\net7.0\BankruptcyTask.Models.csproj.AssemblyReference.cache
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\obj\Debug\net7.0\BankruptcyTask.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\obj\Debug\net7.0\BankruptcyTask.Models.AssemblyInfoInputs.cache
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\obj\Debug\net7.0\BankruptcyTask.Models.AssemblyInfo.cs
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\obj\Debug\net7.0\BankruptcyTask.Models.csproj.CoreCompileInputs.cache
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\obj\Debug\net7.0\BankruptcyTask.Models.dll
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\obj\Debug\net7.0\refint\BankruptcyTask.Models.dll
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\obj\Debug\net7.0\BankruptcyTask.Models.pdb
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\obj\Debug\net7.0\ref\BankruptcyTask.Models.dll

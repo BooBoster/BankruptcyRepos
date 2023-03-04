@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BankruptcyTask.Domain\BankruptcyTask.Domain.csproj" />
+    <ProjectReference Include="..\BankruptcyTask.Domain\BankruptcyTask.Models.csproj" />
 	<ProjectReference Include="..\BankruptcyTask.DAL\BankruptcyTask.DAL.csproj" />
   </ItemGroup>
 

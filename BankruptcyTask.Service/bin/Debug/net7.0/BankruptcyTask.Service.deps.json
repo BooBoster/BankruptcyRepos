@@ -9,7 +9,7 @@
       "BankruptcyTask.Service/1.0.0": {
         "dependencies": {
           "BankruptcyTask.DAL": "1.0.0",
-          "BankruptcyTask.Domain": "1.0.0",
+          "BankruptcyTask.Models": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0"
         },
         "runtime": {
@@ -668,7 +668,7 @@
       },
       "BankruptcyTask.DAL/1.0.0": {
         "dependencies": {
-          "BankruptcyTask.Domain": "1.0.0",
+          "BankruptcyTask.Models": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
@@ -677,9 +677,9 @@
           "BankruptcyTask.DAL.dll": {}
         }
       },
-      "BankruptcyTask.Domain/1.0.0": {
+      "BankruptcyTask.Models/1.0.0": {
         "runtime": {
-          "BankruptcyTask.Domain.dll": {}
+          "BankruptcyTask.Models.dll": {}
         }
       }
     }
@@ -1157,7 +1157,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "BankruptcyTask.Domain/1.0.0": {
+    "BankruptcyTask.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

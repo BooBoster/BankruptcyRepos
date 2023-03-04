@@ -1115,7 +1115,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "BankruptcyTask.Domain": "1.0.0",
+          "BankruptcyTask.Models": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
@@ -1127,14 +1127,14 @@
           "bin/placeholder/BankruptcyTask.DAL.dll": {}
         }
       },
-      "BankruptcyTask.Domain/1.0.0": {
+      "BankruptcyTask.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/BankruptcyTask.Domain.dll": {}
+          "bin/placeholder/BankruptcyTask.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BankruptcyTask.Domain.dll": {}
+          "bin/placeholder/BankruptcyTask.Models.dll": {}
         }
       }
     }
@@ -3351,16 +3351,16 @@
       "path": "../BankruptcyTask.DAL/BankruptcyTask.DAL.csproj",
       "msbuildProject": "../BankruptcyTask.DAL/BankruptcyTask.DAL.csproj"
     },
-    "BankruptcyTask.Domain/1.0.0": {
+    "BankruptcyTask.Models/1.0.0": {
       "type": "project",
-      "path": "../BankruptcyTask.Domain/BankruptcyTask.Domain.csproj",
-      "msbuildProject": "../BankruptcyTask.Domain/BankruptcyTask.Domain.csproj"
+      "path": "../BankruptcyTask.Domain/BankruptcyTask.Models.csproj",
+      "msbuildProject": "../BankruptcyTask.Domain/BankruptcyTask.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "BankruptcyTask.DAL >= 1.0.0",
-      "BankruptcyTask.Domain >= 1.0.0",
+      "BankruptcyTask.Models >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Abstractions >= 2.2.0"
     ]
   },
@@ -3394,8 +3394,8 @@
             "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.DAL\\BankruptcyTask.DAL.csproj": {
               "projectPath": "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.DAL\\BankruptcyTask.DAL.csproj"
             },
-            "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.Domain\\BankruptcyTask.Domain.csproj": {
-              "projectPath": "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.Domain\\BankruptcyTask.Domain.csproj"
+            "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.Domain\\BankruptcyTask.Models.csproj": {
+              "projectPath": "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.Domain\\BankruptcyTask.Models.csproj"
             }
           }
         }

@@ -1133,14 +1133,14 @@
           }
         }
       },
-      "BankruptcyTask.Domain/1.0.0": {
+      "BankruptcyTask.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/BankruptcyTask.Domain.dll": {}
+          "bin/placeholder/BankruptcyTask.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BankruptcyTask.Domain.dll": {}
+          "bin/placeholder/BankruptcyTask.Models.dll": {}
         }
       }
     }
@@ -3463,15 +3463,15 @@
         "version.txt"
       ]
     },
-    "BankruptcyTask.Domain/1.0.0": {
+    "BankruptcyTask.Models/1.0.0": {
       "type": "project",
-      "path": "../BankruptcyTask.Domain/BankruptcyTask.Domain.csproj",
-      "msbuildProject": "../BankruptcyTask.Domain/BankruptcyTask.Domain.csproj"
+      "path": "../BankruptcyTask.Domain/BankruptcyTask.Models.csproj",
+      "msbuildProject": "../BankruptcyTask.Domain/BankruptcyTask.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "BankruptcyTask.Domain >= 1.0.0",
+      "BankruptcyTask.Models >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Relational >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
@@ -3505,8 +3505,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.Domain\\BankruptcyTask.Domain.csproj": {
-              "projectPath": "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.Domain\\BankruptcyTask.Domain.csproj"
+            "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.Domain\\BankruptcyTask.Models.csproj": {
+              "projectPath": "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.Domain\\BankruptcyTask.Models.csproj"
             }
           }
         }

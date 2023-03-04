@@ -10,6 +10,6 @@ namespace BankruptcyTask.Domain.Response
     {
         public string? Description {get; set;}
         public int StatusCode { get; set;}
-        public T Data { get; set;}
+        public T? Data { get; set;}
     }
 }

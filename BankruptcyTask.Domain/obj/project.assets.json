@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.Domain\\BankruptcyTask.Domain.csproj",
-      "projectName": "BankruptcyTask.Domain",
-      "projectPath": "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.Domain\\BankruptcyTask.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.Domain\\BankruptcyTask.Models.csproj",
+      "projectName": "BankruptcyTask.Models",
+      "projectPath": "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.Domain\\BankruptcyTask.Models.csproj",
       "packagesPath": "C:\\Users\\kaban\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.Domain\\obj\\",
       "projectStyle": "PackageReference",

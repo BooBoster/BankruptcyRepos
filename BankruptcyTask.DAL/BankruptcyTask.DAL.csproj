@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BankruptcyTask.Domain\BankruptcyTask.Domain.csproj" />
+    <ProjectReference Include="..\BankruptcyTask.Domain\BankruptcyTask.Models.csproj" />
   </ItemGroup>
 
 </Project>

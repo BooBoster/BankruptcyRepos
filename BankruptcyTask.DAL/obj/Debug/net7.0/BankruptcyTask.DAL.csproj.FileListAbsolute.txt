@@ -19,8 +19,6 @@ C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.DAL
 C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.DAL\bin\Debug\net7.0\BankruptcyTask.DAL.runtimeconfig.json
 C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.DAL\bin\Debug\net7.0\BankruptcyTask.DAL.dll
 C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.DAL\bin\Debug\net7.0\BankruptcyTask.DAL.pdb
-C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.DAL\bin\Debug\net7.0\BankruptcyTask.Domain.dll
-C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.DAL\bin\Debug\net7.0\BankruptcyTask.Domain.pdb
 C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.DAL\obj\Debug\net7.0\BankruptcyTask.DAL.csproj.AssemblyReference.cache
 C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.DAL\obj\Debug\net7.0\BankruptcyTask.DAL.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.DAL\obj\Debug\net7.0\BankruptcyTask.DAL.AssemblyInfoInputs.cache
@@ -32,3 +30,5 @@ C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.DAL
 C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.DAL\obj\Debug\net7.0\BankruptcyTask.DAL.pdb
 C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.DAL\obj\Debug\net7.0\BankruptcyTask.DAL.genruntimeconfig.cache
 C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.DAL\obj\Debug\net7.0\ref\BankruptcyTask.DAL.dll
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.DAL\bin\Debug\net7.0\BankruptcyTask.Models.dll
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.DAL\bin\Debug\net7.0\BankruptcyTask.Models.pdb

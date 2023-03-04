@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "BankruptcyTask.DAL/1.0.0": {
         "dependencies": {
-          "BankruptcyTask.Domain": "1.0.0",
+          "BankruptcyTask.Models": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
@@ -672,9 +672,9 @@
           }
         }
       },
-      "BankruptcyTask.Domain/1.0.0": {
+      "BankruptcyTask.Models/1.0.0": {
         "runtime": {
-          "BankruptcyTask.Domain.dll": {}
+          "BankruptcyTask.Models.dll": {}
         }
       }
     }
@@ -1154,7 +1154,7 @@
       "path": "system.windows.extensions/5.0.0",
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     },
-    "BankruptcyTask.Domain/1.0.0": {
+    "BankruptcyTask.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

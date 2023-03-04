@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TDJ54VtRHI5771j/jGVVcZLKZWr0yhaSjSHWcW69QfG1zm3hcQzSWtx1kD94eIYeW8PlZksl3yN6tIxSxeubqQ==",
+  "dgSpecHash": "pLdTGfLXCf39Y/gY2oOrHBLf/Y2Qs3FPJHZaPRc8h8OvGk5YR38oJIc+3AWJ6kbM3eYTCmE3ol9orjXtH1vWHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.Domain\\BankruptcyTask.Domain.csproj",
+  "projectFilePath": "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.Domain\\BankruptcyTask.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

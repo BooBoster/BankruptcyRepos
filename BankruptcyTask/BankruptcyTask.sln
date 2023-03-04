@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankruptcyTask", "Bankruptc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{0CBB5472-1E66-4F7E-BFFE-3F2EF4FE3EAE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankruptcyTask.Domain", "..\BankruptcyTask.Domain\BankruptcyTask.Domain.csproj", "{7E200B33-A350-45E8-B583-4DC532F383E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankruptcyTask.Models", "..\BankruptcyTask.Domain\BankruptcyTask.Models.csproj", "{7E200B33-A350-45E8-B583-4DC532F383E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{41287D72-4AA3-4CB1-813B-BA4EBE8BC377}"
 EndProject
