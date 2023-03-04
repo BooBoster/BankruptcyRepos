@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pfLfJvPJQJtX21vebyWWghbFRC04qI+KNszJD1HvWQ488HPXH8QN3z0UMMX/Z7AmEKuj6jRLT0SOOaqNhM3+Ug==",
+  "dgSpecHash": "bPXPciWuLJL6w4f2iuNEkM9mxCjQ0FKytRt74wHbnQnEP+vpARAma1Ik1plUT4PqcSXHOBxAi+1z1zdLGVOQKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kaban\\source\\repos\\Bankruptcy\\BankruptcyTask.DAL\\BankruptcyTask.DAL.csproj",
+  "projectFilePath": "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.DAL\\BankruptcyTask.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kaban\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\kaban\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

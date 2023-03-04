@@ -1,5 +1,4 @@
-﻿using BankruptcyTask.Domain.Enum;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +9,7 @@ namespace BankruptcyTask.Domain.Response
     public class BaseResponse<T>
     {
         public string? Description {get; set;}
-        public StatusCode StatusCode { get; set;}
+        public int StatusCode { get; set;}
         public T Data { get; set;}
     }
 }

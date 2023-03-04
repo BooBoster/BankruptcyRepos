@@ -1,9 +1,9 @@
 ﻿using BankruptcyTask.DAL.Interfaces;
 using BankruptcyTask.Domain;
 using BankruptcyTask.Domain.Entity;
-using BankruptcyTask.Domain.Enum;
 using BankruptcyTask.Domain.Response;
 using BankruptcyTask.Service.Interfaces;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,13 +29,13 @@ namespace BankruptcyTask.Service.Implemetations
                     return new BaseResponse<IEnumerable<Estate>>()
                     {
                         Description = "Найдено 0 элементов",
-                        StatusCode = StatusCode.Success,
+                        StatusCode = StatusCodes.Status204NoContent,
                         Data = estates
                     };
                 }
                 return new BaseResponse<IEnumerable<Estate>>()
                 {
-                    StatusCode = StatusCode.Success,
+                    StatusCode = StatusCodes.Status200OK,
                     Data = estates
                 };
             }
@@ -44,7 +44,7 @@ namespace BankruptcyTask.Service.Implemetations
                 return new BaseResponse<IEnumerable<Estate>>()
                 {
                     Description = $"[GetEstates] : {ex.Message}",
-                    StatusCode = StatusCode.IternalServerEror                 
+                    StatusCode = StatusCodes.Status500InternalServerError
                 };
             }
         }
@@ -58,12 +58,12 @@ namespace BankruptcyTask.Service.Implemetations
                     return new BaseResponse<Estate>()
                     {
                         Description = "Элемент не найден",
-                        StatusCode = StatusCode.EstateNotFound
+                        StatusCode = StatusCodes.Status404NotFound
                     };
                 }
                 return new BaseResponse<Estate>()
                 {                    
-                    StatusCode = StatusCode.Success,
+                    StatusCode = StatusCodes.Status200OK,
                     Data = estate
                 };
             }
@@ -72,7 +72,7 @@ namespace BankruptcyTask.Service.Implemetations
                 return new BaseResponse<Estate>()
                 {
                     Description = $"[GetById] : {ex.Message}",
-                    StatusCode = StatusCode.IternalServerEror
+                    StatusCode = StatusCodes.Status500InternalServerError
                 };
             }
         }
@@ -86,12 +86,12 @@ namespace BankruptcyTask.Service.Implemetations
                     return new BaseResponse<Estate>()
                     {
                         Description = "Элемент не найден",
-                        StatusCode = StatusCode.EstateNotFound
+                        StatusCode = StatusCodes.Status404NotFound
                     };
                 }
                 return new BaseResponse<Estate>()
                 {
-                    StatusCode = StatusCode.Success,
+                    StatusCode = StatusCodes.Status200OK,
                     Data = estate
                 };
             }
@@ -100,7 +100,7 @@ namespace BankruptcyTask.Service.Implemetations
                 return new BaseResponse<Estate>()
                 {
                     Description = $"[GetByName] : {ex.Message}",
-                    StatusCode = StatusCode.IternalServerEror
+                    StatusCode = StatusCodes.Status500InternalServerError
                 };
             }
         }
@@ -114,12 +114,12 @@ namespace BankruptcyTask.Service.Implemetations
                     return new BaseResponse<IEnumerable<Estate>>()
                     {
                         Description = "Найдено 0 элементов",
-                        StatusCode = StatusCode.EstateNotFound
+                        StatusCode = StatusCodes.Status404NotFound
                     };
                 }
                 return new BaseResponse<IEnumerable<Estate>>()
                 {
-                    StatusCode = StatusCode.Success,
+                    StatusCode = StatusCodes.Status200OK,
                     Data = estates
                 };
             }
@@ -128,7 +128,7 @@ namespace BankruptcyTask.Service.Implemetations
                 return new BaseResponse<IEnumerable<Estate>>()
                 {
                     Description = $"[GetByDebtor] : {ex.Message}",
-                    StatusCode = StatusCode.IternalServerEror
+                    StatusCode = StatusCodes.Status500InternalServerError
                 };
             }
         }
@@ -142,14 +142,14 @@ namespace BankruptcyTask.Service.Implemetations
                     return new BaseResponse<bool>()
                     {
                         Description = "Элемент не найден",
-                        StatusCode = StatusCode.EstateNotFound,
+                        StatusCode = StatusCodes.Status404NotFound,
                         Data = false
                     };
                 }
                 var result = await _estateRepository.Delete(estate);
                 return new BaseResponse<bool>()
                 {
-                    StatusCode = StatusCode.Success,
+                    StatusCode = StatusCodes.Status200OK,
                     Data = result
                 };
             }
@@ -158,7 +158,7 @@ namespace BankruptcyTask.Service.Implemetations
                 return new BaseResponse<bool>()
                 {
                     Description = $"[DeleteEstate] : {ex.Message}",
-                    StatusCode = StatusCode.IternalServerEror
+                    StatusCode = StatusCodes.Status500InternalServerError
                 };
             }
         }

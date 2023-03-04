@@ -7,12 +7,9 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 // Add services to the container.
-builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
-builder.Services.AddScoped<IEstateRepository, EstateRepository>();
-builder.Services.AddScoped<IEstateService, EstateService>();
+
+InitializeService(builder);
 
 var app = builder.Build();
 
@@ -36,3 +33,13 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+static void InitializeService(WebApplicationBuilder builder)
+{
+    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+    builder.Services.AddControllersWithViews();
+    builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
+    builder.Services.AddScoped<IEstateRepository, EstateRepository>();
+    builder.Services.AddScoped<IEstateService, EstateService>();
+}

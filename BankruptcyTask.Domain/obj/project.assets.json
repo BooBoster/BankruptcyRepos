@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kaban\\source\\repos\\Bankruptcy\\BankruptcyTask.Domain\\BankruptcyTask.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.Domain\\BankruptcyTask.Domain.csproj",
       "projectName": "BankruptcyTask.Domain",
-      "projectPath": "C:\\Users\\kaban\\source\\repos\\Bankruptcy\\BankruptcyTask.Domain\\BankruptcyTask.Domain.csproj",
+      "projectPath": "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.Domain\\BankruptcyTask.Domain.csproj",
       "packagesPath": "C:\\Users\\kaban\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kaban\\source\\repos\\Bankruptcy\\BankruptcyTask.Domain\\obj\\",
+      "outputPath": "C:\\Users\\kaban\\source\\repos\\BankruptcyRepofix\\BankruptcyRepos\\BankruptcyTask.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kaban\\AppData\\Roaming\\NuGet\\NuGet.Config",

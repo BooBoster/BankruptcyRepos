@@ -10,3 +10,15 @@ C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Domain\obj\Debug\net7.0
 C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Domain\obj\Debug\net7.0\refint\BankruptcyTask.Domain.dll
 C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Domain\obj\Debug\net7.0\BankruptcyTask.Domain.pdb
 C:\Users\kaban\source\repos\AspNetProject\BankruptcyTask.Domain\obj\Debug\net7.0\ref\BankruptcyTask.Domain.dll
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\bin\Debug\net7.0\BankruptcyTask.Domain.deps.json
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\bin\Debug\net7.0\BankruptcyTask.Domain.dll
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\bin\Debug\net7.0\BankruptcyTask.Domain.pdb
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\obj\Debug\net7.0\BankruptcyTask.Domain.csproj.AssemblyReference.cache
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\obj\Debug\net7.0\BankruptcyTask.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\obj\Debug\net7.0\BankruptcyTask.Domain.AssemblyInfoInputs.cache
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\obj\Debug\net7.0\BankruptcyTask.Domain.AssemblyInfo.cs
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\obj\Debug\net7.0\BankruptcyTask.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\obj\Debug\net7.0\BankruptcyTask.Domain.dll
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\obj\Debug\net7.0\refint\BankruptcyTask.Domain.dll
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\obj\Debug\net7.0\BankruptcyTask.Domain.pdb
+C:\Users\kaban\source\repos\BankruptcyRepofix\BankruptcyRepos\BankruptcyTask.Domain\obj\Debug\net7.0\ref\BankruptcyTask.Domain.dll

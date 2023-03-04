@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankruptcyTask", "BankruptcyTask.csproj", "{B0A1226A-5F75-4660-9947-93745F8BA9FC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0CBB5472-1E66-4F7E-BFFE-3F2EF4FE3EAE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{0CBB5472-1E66-4F7E-BFFE-3F2EF4FE3EAE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankruptcyTask.Domain", "..\BankruptcyTask.Domain\BankruptcyTask.Domain.csproj", "{7E200B33-A350-45E8-B583-4DC532F383E8}"
 EndProject
@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankruptcyTask.DAL", "..\Ba
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{319F7D94-8B70-4EFE-B381-B46A64C58353}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankruptcyTask.Service", "..\BankruptcyTask.Service\BankruptcyTask.Service.csproj", "{5C1F4014-6A32-4D9D-B449-29022BF54B2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankruptcyTask.Service", "..\BankruptcyTask.Service\BankruptcyTask.Service.csproj", "{5C1F4014-6A32-4D9D-B449-29022BF54B2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
