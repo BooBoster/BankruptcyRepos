@@ -17,6 +17,6 @@ namespace BankruptcyTask.Service.Interfaces
         Task<BaseResponse<IEnumerable<Estate>>> GetByDebtor(int id);
         Task<BaseResponse<bool>> DeleteEstate(int id);
         Task<BaseResponse<bool>> Create(EstateViewModel estateViewModel);
-        Task<BaseResponse<bool>> Edit(int id, EstateViewModel estateViewModel);
+        Task<BaseResponse<Estate>> Edit(int id, EstateViewModel estateViewModel);
     }
 }

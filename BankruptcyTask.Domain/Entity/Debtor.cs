@@ -13,6 +13,7 @@ namespace BankruptcyTask.Domain.Entity
     {
         [Key]
         public int Id { get; set; }
+        [Required]
         public string Name { get; set; }
         public string? SurName { get; set; }
         public ICollection<Estate>? EstateList { get; set; }

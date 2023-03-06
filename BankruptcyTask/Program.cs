@@ -44,5 +44,7 @@ static void InitializeService(WebApplicationBuilder builder)
     builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
     builder.Services.AddScoped<IEstateRepository, EstateRepository>();
     builder.Services.AddScoped<IEstateService, EstateService>();
+    builder.Services.AddScoped<IDebtorRepository, DebtorRepository>();
+    builder.Services.AddScoped<IDebtorService, DebtorService>();
     builder.Services.AddSwaggerGen();
 }
