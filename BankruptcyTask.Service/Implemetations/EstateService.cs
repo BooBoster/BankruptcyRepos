@@ -2,6 +2,7 @@
 using BankruptcyTask.Domain;
 using BankruptcyTask.Domain.Entity;
 using BankruptcyTask.Domain.Response;
+using BankruptcyTask.Models.ViewModel;
 using BankruptcyTask.Service.Interfaces;
 using Microsoft.AspNetCore.Http;
 using System;
@@ -15,7 +16,7 @@ namespace BankruptcyTask.Service.Implemetations
     public class EstateService : IEstateService
     {
         private readonly IEstateRepository _estateRepository;
-        public EstateService(IEstateRepository estateRepository) 
+        public EstateService(IEstateRepository estateRepository)
         {
             _estateRepository = estateRepository;
         }
@@ -24,7 +25,7 @@ namespace BankruptcyTask.Service.Implemetations
             try
             {
                 var estates = await _estateRepository.GetAll();
-                if(estates.Count() == 0 ) 
+                if (estates.Count() == 0)
                 {
                     return new BaseResponse<IEnumerable<Estate>>()
                     {
@@ -39,7 +40,7 @@ namespace BankruptcyTask.Service.Implemetations
                     Data = estates
                 };
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 return new BaseResponse<IEnumerable<Estate>>()
                 {
@@ -53,7 +54,7 @@ namespace BankruptcyTask.Service.Implemetations
             try
             {
                 var estate = await _estateRepository.GetById(id);
-                if(estate == null)
+                if (estate == null)
                 {
                     return new BaseResponse<Estate>()
                     {
@@ -62,7 +63,7 @@ namespace BankruptcyTask.Service.Implemetations
                     };
                 }
                 return new BaseResponse<Estate>()
-                {                    
+                {
                     StatusCode = StatusCodes.Status200OK,
                     Data = estate
                 };
@@ -161,6 +162,70 @@ namespace BankruptcyTask.Service.Implemetations
                     StatusCode = StatusCodes.Status500InternalServerError
                 };
             }
-        }               
+        }
+        public async Task<BaseResponse<bool>> Create(EstateViewModel estateViewModel)
+        {
+            try
+            {
+                var estate = new Estate()
+                {
+                    Name = estateViewModel.Name,
+                    Price = estateViewModel.Price,
+                    CreationDate = estateViewModel.CreationDate,
+                    IsRealize = estateViewModel.IsRealize,
+                };
+
+                var result = await _estateRepository.Create(estate);
+                return new BaseResponse<bool>()
+                {
+                    StatusCode = StatusCodes.Status200OK,
+                    Data = result
+                };
+            }
+            catch (Exception ex)
+            {
+                return new BaseResponse<bool>()
+                {
+                    Description = $"[Create] : {ex.Message}",
+                    StatusCode = StatusCodes.Status500InternalServerError,
+                    Data = false
+                };
+            }
+        }
+
+        public async Task<BaseResponse<Estate>> Edit(int id, EstateViewModel estateViewModel)
+        {
+            try
+            {
+                var estate = await _estateRepository.GetById(id);
+                if(estate == null)
+                {
+                    return new BaseResponse<Estate>()
+                    {
+                        Description = "Имущество не найдено",
+                        StatusCode = StatusCodes.Status404NotFound,
+                    };
+                }
+                estate.Name = estateViewModel.Name;
+                estate.CreationDate = estateViewModel.CreationDate;
+                estate.Price = estateViewModel.Price;
+                estate.IsRealize = estateViewModel.IsRealize;
+                var result = await _estateRepository.Update(estate);
+
+                return new BaseResponse<Estate>()
+                {
+                    StatusCode = StatusCodes.Status200OK,
+                    Data = result
+                };
+            }
+            catch (Exception ex)
+            {
+                return new BaseResponse<Estate>()
+                {
+                    Description = $"[Edit] : {ex.Message}",
+                    StatusCode = StatusCodes.Status500InternalServerError
+                };
+            }
+        }
     }
 }
