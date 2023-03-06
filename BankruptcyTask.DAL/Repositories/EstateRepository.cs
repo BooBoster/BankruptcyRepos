@@ -19,15 +19,15 @@ namespace BankruptcyTask.DAL.Repositories
         public async Task<bool> Create(Estate entity)
         {
             await _context.Estates.AddAsync(entity);
-            await _context.SaveChangesAsync();
-            return true;
+            var count = await _context.SaveChangesAsync();           
+            return count > 0;
         }
 
         public async Task<bool> Delete(Estate entity)
         {
             _context.Remove(entity);
-            await _context.SaveChangesAsync();
-            return true;
+            var count = await _context.SaveChangesAsync();
+            return count > 0;
         }
 
         public async Task<Estate> GetById(int id)

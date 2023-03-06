@@ -1,20 +1,18 @@
 ﻿using BankruptcyTask.Domain.Entity;
-using System.ComponentModel.DataAnnotations;
+using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace BankruptcyTask.Domain
+namespace BankruptcyTask.Models.ViewModel
 {
-    public class Estate
+    public class EstateViewModel
     {
-        [Key]
-        public int Id { get; set; }
         public string Name { get; set; }
         public decimal Price { get; set; }
         public DateTime CreationDate { get; set; }
-        public Debtor Debtor { get; set; }
-        [ForeignKey("Debtor")]
-        public int DebtorId { get; set; }
         public bool IsRealize { get; set; }
-        
     }
 }

@@ -161,6 +161,6 @@ namespace BankruptcyTask.Service.Implemetations
                     StatusCode = StatusCodes.Status500InternalServerError
                 };
             }
-        }
+        }               
     }
 }

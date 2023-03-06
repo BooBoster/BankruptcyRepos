@@ -4,6 +4,7 @@ using BankruptcyTask.DAL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BankruptcyTask.DAL.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230306143135_Arbitrator")]
+    partial class Arbitrator
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -30,9 +33,6 @@ namespace BankruptcyTask.DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("ArbitratorId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -42,8 +42,6 @@ namespace BankruptcyTask.DAL.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ArbitratorId");
 
                     b.ToTable("Debtors");
                 });
@@ -98,17 +96,6 @@ namespace BankruptcyTask.DAL.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Arbitrators");
-                });
-
-            modelBuilder.Entity("BankruptcyTask.Domain.Entity.Debtor", b =>
-                {
-                    b.HasOne("BankruptcyTask.Models.Entity.Arbitrator", "Arbitrator")
-                        .WithMany()
-                        .HasForeignKey("ArbitratorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Arbitrator");
                 });
 
             modelBuilder.Entity("BankruptcyTask.Domain.Estate", b =>
