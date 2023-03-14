@@ -8,15 +8,16 @@ namespace BankruptcyTask.Domain
     {
         [Key]
         public int Id { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Обязательное поле")]
+        [StringLength(100, MinimumLength = 1, ErrorMessage = "Длина строки должна быть от 1 до 100 символов")]
         public string Name { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Обязательное поле")]
         public decimal Price { get; set; }
         public DateTime CreationDate { get; set; }
         public Debtor Debtor { get; set; }
         [ForeignKey("Debtor")]
         public int DebtorId { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Обязательное поле")]
         public bool IsRealize { get; set; }
         
     }

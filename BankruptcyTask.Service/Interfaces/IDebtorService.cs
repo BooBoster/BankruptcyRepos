@@ -13,8 +13,8 @@ namespace BankruptcyTask.Service.Interfaces
     public interface IDebtorService
     {
         Task<BaseResponse<IEnumerable<Debtor>>> GetDebtors();
-        Task<BaseResponse<Debtor>> GetById(int id);
-        Task<BaseResponse<Debtor>> GetByName(string name,string surname);
+        Task<BaseResponse<Debtor>> GetDebtor(int id);
+        Task<BaseResponse<Debtor>> GetDebtor(string name,string surname);
         Task<BaseResponse<bool>> DeleteDebtor(int id);
         Task<BaseResponse<Debtor>> AddEstate(int DebtorId, Estate estate);
         Task<BaseResponse<bool>> Create(DebtorViewModel debtorViewModel);

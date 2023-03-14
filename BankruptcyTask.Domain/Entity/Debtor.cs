@@ -13,9 +13,12 @@ namespace BankruptcyTask.Domain.Entity
     {
         [Key]
         public int Id { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Не указано имя")]
+        [StringLength(50, MinimumLength = 2, ErrorMessage = "Длина строки должна быть от 2 до 50 символов")]
         public string Name { get; set; }
-        public string? SurName { get; set; }
+        [Required(ErrorMessage = "Не указана фамилия")]
+        [StringLength(50, MinimumLength = 3, ErrorMessage = "Длина строки должна быть от 2 до 50 символов")]
+        public string SurName { get; set; }
         public ICollection<Estate>? EstateList { get; set; }
         [ForeignKey("Arbitrator")]
         public int? ArbitratorId { get; set; }

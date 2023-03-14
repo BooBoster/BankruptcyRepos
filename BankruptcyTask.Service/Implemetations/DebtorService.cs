@@ -50,7 +50,7 @@ namespace BankruptcyTask.Service.Implemetations
                 };
             }
         }
-        public async Task<BaseResponse<Debtor>> GetById(int id)
+        public async Task<BaseResponse<Debtor>> GetDebtor(int id)
         {
             try
             {
@@ -78,7 +78,7 @@ namespace BankruptcyTask.Service.Implemetations
                 };
             }
         }
-        public async Task<BaseResponse<Debtor>> GetByName(string name, string surname)
+        public async Task<BaseResponse<Debtor>> GetDebtor(string name, string surname)
         {
             try
             {

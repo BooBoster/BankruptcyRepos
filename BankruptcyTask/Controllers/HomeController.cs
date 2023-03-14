@@ -11,11 +11,13 @@ namespace BankruptcyTask.Controllers
     {
         private readonly IEstateService _estateService;
         private readonly ILogger<HomeController> _logger;
+        private readonly IDebtorService _debtorService;
 
-        public HomeController(ILogger<HomeController> logger, IEstateService estateService)
+        public HomeController(ILogger<HomeController> logger, IEstateService estateService, IDebtorService debtorService)
         {
             _estateService = estateService;
             _logger = logger;
+            _debtorService = debtorService;
         }
 
         public async Task<IActionResult> Index()

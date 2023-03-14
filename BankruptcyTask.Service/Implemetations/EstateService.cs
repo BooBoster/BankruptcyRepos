@@ -49,7 +49,7 @@ namespace BankruptcyTask.Service.Implemetations
                 };
             }
         }
-        public async Task<BaseResponse<Estate>> GetById(int id)
+        public async Task<BaseResponse<Estate>> GetEstate(int id)
         {
             try
             {
@@ -77,7 +77,7 @@ namespace BankruptcyTask.Service.Implemetations
                 };
             }
         }
-        public async Task<BaseResponse<Estate>> GetByName(string name)
+        public async Task<BaseResponse<Estate>> GetEstate(string name)
         {
             try
             {

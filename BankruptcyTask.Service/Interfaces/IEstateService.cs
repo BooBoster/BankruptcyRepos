@@ -12,8 +12,8 @@ namespace BankruptcyTask.Service.Interfaces
     public interface IEstateService
     {
         Task<BaseResponse<IEnumerable<Estate>>> GetEstates();
-        Task<BaseResponse<Estate>> GetById(int id);
-        Task<BaseResponse<Estate>> GetByName(string name);
+        Task<BaseResponse<Estate>> GetEstate(int id);
+        Task<BaseResponse<Estate>> GetEstate(string name);
         Task<BaseResponse<IEnumerable<Estate>>> GetByDebtor(int id);
         Task<BaseResponse<bool>> DeleteEstate(int id);
         Task<BaseResponse<bool>> Create(EstateViewModel estateViewModel);
