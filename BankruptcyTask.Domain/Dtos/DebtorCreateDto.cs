@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace BankruptcyTask.Models.ViewModel
 {
-    public class DebtorViewModel
+    public class DebtorCreateDto
     {
         public string Name { get; set; }
         public string? SurName { get; set; }

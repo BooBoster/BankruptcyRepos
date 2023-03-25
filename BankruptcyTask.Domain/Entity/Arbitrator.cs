@@ -9,6 +9,7 @@ namespace BankruptcyTask.Models.Entity
 {
     public class Arbitrator
     {
+        [Key]
         public int Id { get; set; }
         [Required(ErrorMessage = "Не указано имя")]
         [StringLength(50, MinimumLength = 2, ErrorMessage = "Длина строки должна быть от 2 до 50 символов")]

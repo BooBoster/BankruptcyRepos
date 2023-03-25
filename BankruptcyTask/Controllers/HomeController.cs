@@ -22,7 +22,9 @@ namespace BankruptcyTask.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var response = await _estateService.GetEstates();
+
+            var responseEstate = await _estateService.GetEstates();
+            var responseDebtor = await _debtorService.GetDebtors();
             return View();
         }
 

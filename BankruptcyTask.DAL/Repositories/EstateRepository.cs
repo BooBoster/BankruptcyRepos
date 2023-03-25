@@ -32,19 +32,15 @@ namespace BankruptcyTask.DAL.Repositories
 
         public async Task<Estate> GetById(int id)
         {
-            return await _context.Estates.FirstOrDefaultAsync(estate=> estate.Id == id);
+            return await _context.Estates.Include(estate => estate.Debtor)
+                .FirstOrDefaultAsync(estate=> estate.Id == id);
         }
 
         public async Task<IEnumerable<Estate>> GetByDebtor(int debtorId)
         {
             return await _context.Estates.Where(esstate => esstate.DebtorId == debtorId)
                 .ToListAsync();
-        }
-
-        public async Task<Estate> GetByName(string name)
-        {
-            return await _context.Estates.FirstOrDefaultAsync(estate => estate.Name == name);
-        }
+        }     
 
         public async Task<IEnumerable<Estate>> GetAll()
         {

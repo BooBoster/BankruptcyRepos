@@ -16,6 +16,9 @@ namespace BankruptcyTask.Domain.Entity
         [Required(ErrorMessage = "Не указано имя")]
         [StringLength(50, MinimumLength = 2, ErrorMessage = "Длина строки должна быть от 2 до 50 символов")]
         public string Name { get; set; }
+        [Required(ErrorMessage = "Не указано имя")]
+        [StringLength(50, MinimumLength = 2, ErrorMessage = "Длина строки должна быть от 2 до 50 символов")]
+        public string SecondName { get; set; }
         [Required(ErrorMessage = "Не указана фамилия")]
         [StringLength(50, MinimumLength = 3, ErrorMessage = "Длина строки должна быть от 2 до 50 символов")]
         public string SurName { get; set; }

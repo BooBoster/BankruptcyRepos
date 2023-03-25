@@ -33,13 +33,9 @@ namespace BankruptcyTask.DAL.Repositories
 
         public async Task<Debtor> GetById(int id)
         {
-            return await _context.Debtors.FirstOrDefaultAsync(debtor => debtor.Id == id);
+            return await _context.Debtors.Include(debtor => debtor.EstateList)
+                .FirstOrDefaultAsync(debtor => debtor.Id == id);
         }        
-
-        public async Task<Debtor> GetByName(string name, string surname)
-        {
-            return await _context.Debtors.FirstOrDefaultAsync(debtor => debtor.Name == name && debtor.SurName == surname);
-        }
 
         public async Task<IEnumerable<Debtor>> GetAll()
         {

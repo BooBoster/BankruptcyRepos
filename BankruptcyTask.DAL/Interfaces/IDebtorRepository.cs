@@ -10,6 +10,6 @@ namespace BankruptcyTask.DAL.Interfaces
 {
     public interface IDebtorRepository : IBaseRepository<Debtor>
     {
-        Task<Debtor> GetByName(string name, string surname);
+        //возможно что-то понадобится конкретно для Debtor
     }
 }

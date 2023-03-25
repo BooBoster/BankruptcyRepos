@@ -77,34 +77,6 @@ namespace BankruptcyTask.Service.Implemetations
                 };
             }
         }
-        public async Task<BaseResponse<Estate>> GetEstate(string name)
-        {
-            try
-            {
-                var estate = await _estateRepository.GetByName(name);
-                if (estate == null)
-                {
-                    return new BaseResponse<Estate>()
-                    {
-                        Description = "Элемент не найден",
-                        StatusCode = StatusCodes.Status404NotFound
-                    };
-                }
-                return new BaseResponse<Estate>()
-                {
-                    StatusCode = StatusCodes.Status200OK,
-                    Data = estate
-                };
-            }
-            catch (Exception ex)
-            {
-                return new BaseResponse<Estate>()
-                {
-                    Description = $"[GetByName] : {ex.Message}",
-                    StatusCode = StatusCodes.Status500InternalServerError
-                };
-            }
-        }
         public async Task<BaseResponse<IEnumerable<Estate>>> GetByDebtor(int id)
         {
             try
@@ -163,16 +135,16 @@ namespace BankruptcyTask.Service.Implemetations
                 };
             }
         }
-        public async Task<BaseResponse<bool>> Create(EstateViewModel estateViewModel)
+        public async Task<BaseResponse<bool>> Create(EstateCreateDto estateCreateDto)
         {
             try
             {
                 var estate = new Estate()
                 {
-                    Name = estateViewModel.Name,
-                    Price = estateViewModel.Price,
-                    CreationDate = estateViewModel.CreationDate,
-                    IsRealize = estateViewModel.IsRealize,
+                    Name = estateCreateDto.Name,
+                    Price = estateCreateDto.Price,
+                    CreationDate = estateCreateDto.CreationDate,
+                    IsRealize = estateCreateDto.IsRealize,
                 };
 
                 var result = await _estateRepository.Create(estate);
@@ -193,7 +165,7 @@ namespace BankruptcyTask.Service.Implemetations
             }
         }
 
-        public async Task<BaseResponse<Estate>> Edit(int id, EstateViewModel estateViewModel)
+        public async Task<BaseResponse<Estate>> Edit(int id, EstateCreateDto estateCreateDto)
         {
             try
             {
@@ -206,10 +178,10 @@ namespace BankruptcyTask.Service.Implemetations
                         StatusCode = StatusCodes.Status404NotFound,
                     };
                 }
-                estate.Name = estateViewModel.Name;
-                estate.CreationDate = estateViewModel.CreationDate;
-                estate.Price = estateViewModel.Price;
-                estate.IsRealize = estateViewModel.IsRealize;
+                estate.Name = estateCreateDto.Name;
+                estate.CreationDate = estateCreateDto.CreationDate;
+                estate.Price = estateCreateDto.Price;
+                estate.IsRealize = estateCreateDto.IsRealize;
                 var result = await _estateRepository.Update(estate);
 
                 return new BaseResponse<Estate>()

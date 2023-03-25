@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BankruptcyTask.Models.ViewModel
 {
-    public class EstateViewModel
+    public class EstateCreateDto
     {
         public string Name { get; set; }
         public decimal Price { get; set; }

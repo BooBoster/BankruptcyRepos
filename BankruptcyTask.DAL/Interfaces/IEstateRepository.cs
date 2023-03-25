@@ -9,7 +9,6 @@ namespace BankruptcyTask.DAL.Interfaces
 {
     public interface IEstateRepository: IBaseRepository<Estate>
     {
-        Task<Estate> GetByName(string name);
         Task<IEnumerable<Estate>> GetByDebtor(int debtorId);
 
     }

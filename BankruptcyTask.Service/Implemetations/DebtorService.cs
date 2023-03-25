@@ -77,35 +77,7 @@ namespace BankruptcyTask.Service.Implemetations
                     StatusCode = StatusCodes.Status500InternalServerError
                 };
             }
-        }
-        public async Task<BaseResponse<Debtor>> GetDebtor(string name, string surname)
-        {
-            try
-            {
-                var debtor = await _debtorRepository.GetByName(name,surname);
-                if (debtor == null)
-                {
-                    return new BaseResponse<Debtor>()
-                    {
-                        Description = "Элемент не найден",
-                        StatusCode = StatusCodes.Status404NotFound
-                    };
-                }
-                return new BaseResponse<Debtor>()
-                {
-                    StatusCode = StatusCodes.Status200OK,
-                    Data = debtor
-                };
-            }
-            catch (Exception ex)
-            {
-                return new BaseResponse<Debtor>()
-                {
-                    Description = $"[GetByName] : {ex.Message}",
-                    StatusCode = StatusCodes.Status500InternalServerError
-                };
-            }
-        }       
+        }     
         public async Task<BaseResponse<bool>> DeleteDebtor(int id)
         {
             try
@@ -136,14 +108,14 @@ namespace BankruptcyTask.Service.Implemetations
                 };
             }
         }
-        public async Task<BaseResponse<bool>> Create(DebtorViewModel debtorViewModel)
+        public async Task<BaseResponse<bool>> Create(DebtorCreateDto debtorCreateDto)
         {
             try
             {
                 var debtor = new Debtor()
                 {
-                    Name = debtorViewModel.Name,
-                    SurName = debtorViewModel.SurName,
+                    Name = debtorCreateDto.Name,
+                    SurName = debtorCreateDto.SurName,
                     EstateList = new List<Estate>()
                 };
 
@@ -197,7 +169,7 @@ namespace BankruptcyTask.Service.Implemetations
             }
         }
 
-        public async Task<BaseResponse<Debtor>> Edit(int id, DebtorViewModel debtorViewModel)
+        public async Task<BaseResponse<Debtor>> Edit(int id, DebtorCreateDto debtorViewModel)
         {
             try
             {
